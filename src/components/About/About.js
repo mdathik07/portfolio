@@ -12,7 +12,7 @@ function About() {
         <div className="row">
           <div className="col-lg-4" data-aos="fade-right">
             <img 
-              src="/assets/img/profile-img.jpg" 
+              src=`${process.env.PUBLIC_URL}/assets/img/profile-img.jpg` 
               className="img-fluid" 
               alt="" 
               onContextMenu={(e) => e.preventDefault()}
