@@ -19,7 +19,7 @@ function Portfolio() {
             <div className="portfolio-wrap h-100">
               <p>Mall Management System</p>
               <div className="portfolio-img h-100">
-                <img src="/assets/img/portfolio/portfolio-3.jpg" className="img-fluid" alt="" style={{objectFit: 'cover', height: '100%'}} />
+                <img src={`${process.env.PUBLIC_URL}/assets/img/portfolio/portfolio-3.jpg`} className="img-fluid" alt="" style={{objectFit: 'cover', height: '100%'}} />
               </div>
               <div className="portfolio-links">
                 <a href="https://github.com/mdathik07/Mall-Management-System" title="More Details" className="w-100"><i className="bx bx-link"></i></a>
@@ -49,7 +49,7 @@ function Portfolio() {
             <div className="portfolio-wrap h-100">
               <p>COVID-19 Bed Booking System</p>
               <div className="portfolio-img h-100">
-                <img src="/assets/img/portfolio/portfolio-1.jpg" className="img-fluid" alt="" style={{objectFit: 'cover', height: '100%'}} />
+                <img src={`${process.env.PUBLIC_URL}/assets/img/portfolio/portfolio-1.jpg`} className="img-fluid" alt="" style={{objectFit: 'cover', height: '100%'}} />
               </div>
               <div className="portfolio-links">
                 <a href="https://github.com/mdathik07/Hospital-Bed-Booking-System" title="More Details" className="w-100"><i className="bx bx-link"></i></a>
@@ -78,7 +78,7 @@ function Portfolio() {
             <div className="portfolio-wrap h-100">
               <p>Sudoku-Solver Using Backtracking</p>
               <div className="portfolio-img h-100">
-                <img src="/assets/img/portfolio/portfolio-2.jpg" className="img-fluid" alt="" style={{objectFit: 'cover', height: '100%'}} />
+                <img src={`${process.env.PUBLIC_URL}/assets/img/portfolio/portfolio-2.jpg`} className="img-fluid" alt="" style={{objectFit: 'cover', height: '100%'}} />
               </div>
               <div className="portfolio-links">
                 <a href="https://github.com/mdathik07/Sudoku-Solver" title="More Details" className="w-100"><i className="bx bx-link"></i></a>

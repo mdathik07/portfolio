@@ -1,6 +1,5 @@
 import React from 'react';
 import './About.css';
-
 function About() {
   return (
     <section id="about" className="about">
@@ -12,9 +11,9 @@ function About() {
         <div className="row">
           <div className="col-lg-4" data-aos="fade-right">
             <img 
-              src={`${process.env.PUBLIC_URL}/assets/img/profile-img.jpg`} 
+              src={`${process.env.PUBLIC_URL}/assets/img/profile-img.jpg`}
               className="img-fluid" 
-              alt="" 
+              alt="profile" 
               onContextMenu={(e) => e.preventDefault()}
             />
           </div>
