@@ -1,0 +1,87 @@
+.contact .info {
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact .info i {
+  font-size: 20px;
+  color: #149ddd;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #dff3fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #050d18;
+}
+
+.contact .info p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #173b6c;
+}
+
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+  background: #149ddd;
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .contact .info {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact .info {
+    padding: 20px;
+  }
+
+  .contact .info i {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+  }
+
+  .contact .info h4 {
+    font-size: 18px;
+    padding-left: 50px;
+  }
+
+  .contact .info p {
+    font-size: 14px;
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+  .contact .info {
+    text-align: center;
+    padding: 15px;
+  }
+
+  .contact .info i {
+    margin: 0 auto 15px;
+    float: none;
+  }
+
+  .contact .info h4,
+  .contact .info p {
+    padding-left: 0;
+  }
+} 

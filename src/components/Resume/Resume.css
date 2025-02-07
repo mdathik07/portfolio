@@ -1,0 +1,26 @@
+.resume-button .btn {
+  padding: 12px 32px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  background: #149ddd;
+  border: none;
+}
+
+.resume-button .btn:hover {
+  background: #37b3ed;
+  transform: translateY(-2px);
+}
+
+.resume-button .btn i {
+  margin-right: 8px;
+}
+
+.resume .section-title {
+  margin-bottom: 40px;
+}
+
+.resume .section-title p {
+  margin: 15px 0 0 0;
+} 

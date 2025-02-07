@@ -1,0 +1,185 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Remove default margin */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main content styles */
+#main {
+  margin-left: 300px; /* Match header width */
+  padding: 0 30px;
+}
+
+/* Hero section adjustment */
+#hero {
+  margin-left: 300px; /* Match header width */
+  width: calc(100% - 300px) !important; /* Adjust width to account for header */
+}
+
+/* Mobile Navigation */
+.mobile-nav-toggle {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  z-index: 9998;
+  border: 0;
+  font-size: 24px;
+  transition: all 0.4s;
+  outline: none !important;
+  background-color: #149ddd;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/* Back to top button */
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #149ddd;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: #2eafec;
+  color: #fff;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1199px) {
+  #header {
+    left: -300px;
+  }
+
+  #main, #hero {
+    margin-left: 0;
+    width: 100% !important;
+    padding: 0 15px;
+  }
+
+  #header.header-mobile-active {
+    left: 0;
+  }
+
+  .section-title {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .section-title h2 {
+    font-size: 28px;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  .portfolio-item {
+    margin-bottom: 20px;
+  }
+
+  .portfolio-description {
+    padding: 20px;
+  }
+
+  .skills .progress {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 575px) {
+  #main {
+    padding: 0 10px;
+  }
+
+  .section-title h2 {
+    font-size: 24px;
+  }
+
+  .portfolio .portfolio-wrap p {
+    font-size: 16px;
+  }
+
+  .portfolio-description h2 {
+    font-size: 22px;
+  }
+
+  .contact .info {
+    padding: 15px;
+  }
+}

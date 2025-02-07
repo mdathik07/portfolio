@@ -1,0 +1,97 @@
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: #dce8f8;
+  height: 10px;
+}
+
+.skills .progress-bar {
+  width: 0;
+  height: 10px;
+  transition: width 1s ease-in-out;
+  background-color: #149ddd;
+}
+
+/* Progress bar animations */
+.skills .progress[data-progress="90"] .progress-bar {
+  animation: progress-90 1s forwards;
+}
+
+.skills .progress[data-progress="85"] .progress-bar {
+  animation: progress-85 1s forwards;
+}
+
+.skills .progress[data-progress="80"] .progress-bar {
+  animation: progress-80 1s forwards;
+}
+
+.skills .progress[data-progress="70"] .progress-bar {
+  animation: progress-70 1s forwards;
+}
+
+/* Keyframe animations for each percentage */
+@keyframes progress-90 {
+  from { width: 0; }
+  to { width: 90%; }
+}
+
+@keyframes progress-85 {
+  from { width: 0; }
+  to { width: 85%; }
+}
+
+@keyframes progress-80 {
+  from { width: 0; }
+  to { width: 80%; }
+}
+
+@keyframes progress-70 {
+  from { width: 0; }
+  to { width: 70%; }
+}
+
+@media (max-width: 768px) {
+  .skills .progress {
+    height: 50px;
+    margin-bottom: 20px;
+  }
+
+  .skills .progress .skill {
+    font-size: 14px;
+    padding: 8px 0;
+  }
+
+  .skills .progress-bar-wrap {
+    height: 8px;
+  }
+
+  .skills .progress-bar {
+    height: 8px;
+  }
+}
+
+@media (max-width: 575px) {
+  .skills-content > div:first-child {
+    margin-bottom: 30px;
+  }
+} 
