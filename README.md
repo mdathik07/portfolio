@@ -1,3 +1,6 @@
+## To view the deployed portfolio
+This page is deployed using github pages [https://mdathik07.github.io/portfolio/]
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
