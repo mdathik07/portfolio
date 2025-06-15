@@ -13,7 +13,7 @@ function Resume() {
         <div className="row justify-content-center">
           <div className="col-lg-6 text-center">
             <div className="resume-button">
-              <a href={`${process.env.PUBLIC_URL}/assets/resume/Md_Atheeq_Resume.pdf`} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/1RK86AgFxVGbN46V_I-vdsF4fFvp8uxhF/view?usp=drivesdk" className="btn btn-primary" target="_blank" rel="noopener noreferrer">
                 <i className="bx bx-file"></i> View Resume
               </a>
             </div>
